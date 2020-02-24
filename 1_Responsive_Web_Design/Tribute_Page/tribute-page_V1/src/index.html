@@ -4,6 +4,10 @@
 	Will be used as a reference for version 2
 -->
 
+<!--
+  TESTS PASSED: 9/10
+-->
+
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,6 +17,7 @@
     text-align: center;
     margin-top: 60px;
     background-color:;
+    padding: 0px -10px 0px -10px;
   }
 
   .wbg {
@@ -58,20 +63,23 @@
 </style>
 
 <body>
-  <div class="container well parent">
-    <h1 class="text-center">Dr. Norman Borlaug</h1>
+  <div class="container well parent" id="main">
+
+    <h1 class="text-center" id="title">Dr. Norman Borlaug</h1>
     <h2 class="text-center"><em>The man who saved a billion lives</em></h2>
-    <div class="well wbg">
+    
+    <div id="img-div" class="well wbg">
       <div class="image">
-        <img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg"> </img>
+        <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg"> </img>
       </div>
-      <div class="caption">
+
+      <div id="img-caption" class="caption">
         <p class="text-center">Dr. Norman Borlaug, third from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
         </p>
       </div>
     </div>
 
-    <div class="TXT">
+    <div id="tribute-info" class="TXT">
       <h3>Here's a time line of Dr. Borlaug's life:</h3>
       <ul>
         <li><b>1914</b> - Born in Cresco, Iowa</li>
@@ -104,6 +112,6 @@
   </div>
   <footer class="text-center">
     <hr>
-    <p>Written and coded by <a href="https://www.freecodecamp.org/perpenderp" target="_blank">Pranay Kotian</a>.</p>
+    <p>Written and coded by <a id="tribute-link" href="https://www.freecodecamp.org/perpenderp" target="_blank">Pranay Kotian</a>.</p>
   </footer>
 </body>
